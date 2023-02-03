@@ -37,7 +37,8 @@ def set_page_title(title):
     """)
 
 
-set_page_title("ITR-Bank System")
+set_page_title(st.text_input("ITR-Bank System"))
+
 #------------------------SITE BACKGROUND-------------------
 def get_base64(bin_file):
     with open(bin_file, 'rb') as f:
