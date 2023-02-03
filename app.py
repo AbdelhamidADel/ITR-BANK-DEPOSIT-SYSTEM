@@ -1,15 +1,7 @@
 import streamlit as st
 import numpy as np
-import pandas as pd
-from matplotlib import pyplot as plt
-from plotly.subplots import make_subplots
-from plotly.offline import plot
-import plotly.graph_objects as go
-import plotly.express as px
 from streamlit_lottie import st_lottie
 import requests
-from plotly.graph_objs import *
-from wordcloud import WordCloud
 import base64
 from streamlit_option_menu import option_menu
 from utils import *
