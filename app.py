@@ -84,9 +84,9 @@ if selected =='Home':
     st.markdown("<p style='color: #262730;font-weight: bold; '>🟣 Job : Client Job </p>", unsafe_allow_html=True)
     st.markdown("<p style='color: #262730;font-weight: bold; '>🟣 marital status : divorced, married, single, unknown </p>", unsafe_allow_html=True)
     st.markdown("<p style='color: #262730;font-weight: bold; '>🟣 Education : primary, secondary, tertiary and unknown </p>", unsafe_allow_html=True)
-    st.markdown("<p style='color: #262730;font-weight: bold; '>🟣 Default : has credit in default? (no, yes, unknown) </p>", unsafe_allow_html=True)
-    st.markdown("<p style='color: #262730;font-weight: bold; '>🟣 Housing: has housing loan? (no, yes, unknown) </p>", unsafe_allow_html=True)
-    st.markdown("<p style='color: #262730;font-weight: bold; '>🟣 Loan: has Personal loan? (no, yes, unknown) </p>", unsafe_allow_html=True)
+    st.markdown("<p style='color: #262730;font-weight: bold; '>🟣 Default : has credit in default? (no, yes) </p>", unsafe_allow_html=True)
+    st.markdown("<p style='color: #262730;font-weight: bold; '>🟣 Housing: has housing loan? (no, yes) </p>", unsafe_allow_html=True)
+    st.markdown("<p style='color: #262730;font-weight: bold; '>🟣 Loan: has Personal loan? (no, yes) </p>", unsafe_allow_html=True)
     st.markdown("<p style='color: #262730;font-weight: bold; '>🟣 Balance: Balance of the individual </p>", unsafe_allow_html=True)
     st.markdown("<p style='color: #262730;font-weight: bold; '>🟣 Contact: contact communication type (cellular, telephone) </p>", unsafe_allow_html=True)
     st.markdown("<p style='color: #262730;font-weight: bold; '>🟣 Month: last contact month of year (jan, feb, mar, ..., nov, dec) </p>", unsafe_allow_html=True)
@@ -140,7 +140,7 @@ if selected =='Prediction':
             housing=st.selectbox('has housing loan?',('yes','no'))
             loan=st.selectbox('has Personal loan?',('yes','no'))
             contact=st.selectbox('contact communication type',('unknown', 'cellular', 'telephone'))
-            months=st.selectbox('select a month',('may', 'jun', 'jul', 'aug', 'oct', 'nov', 'dec', 'jan', 'feb','mar', 'apr', 'sep'))
+            months=st.selectbox('select a month',('jan', 'feb','mar', 'apr','may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'))
             poutcome=st.selectbox('outcome of the previous marketing campaign',('unknown', 'other', 'failure', 'success'))
 
         # ------------------------------------input processing-------------------------------------
