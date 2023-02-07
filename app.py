@@ -10,8 +10,7 @@ from PIL import Image
 
 
 #------------------------configuration of page ----------------------------------
-im = Image.open("favicon.ico")
-st.set_page_config(layout="centered",page_icon=im,initial_sidebar_state="expanded",page_title="ITR-Bank System")
+st.set_page_config(layout="centered",page_icon="favicon.ico",initial_sidebar_state="expanded",page_title="ITR-Bank System")
 
 #------------------------SITE BACKGROUND-------------------
 def get_base64(bin_file):
