@@ -67,7 +67,7 @@ st.markdown(
     unsafe_allow_html=True
 )
 footer_sidebar="""<div>
-<p style='margin-top: 110px; text-align: center;' >Developed with ❤️ by <a style='color: #5731d2;text-shadow: 2px 2px 4px black; text-align: center;' href="https://github.com/AbdelhamidADel" target="_blank">Abdelhamid Adel</a></p>
+<p style='margin-top: 110px; text-align: center;' >Developed with ❤️ by <a style='color: gold;text-shadow: 2px 2px 4px black; text-align: center;' href="https://github.com/AbdelhamidADel" target="_blank">Abdelhamid Adel</a></p>
 </div>
 """
 st.sidebar.markdown(footer_sidebar,unsafe_allow_html=True)
