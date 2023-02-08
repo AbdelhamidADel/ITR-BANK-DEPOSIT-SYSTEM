@@ -51,7 +51,7 @@ with st.sidebar:
         icons=['house', 'gear','list-task'], menu_icon="cast", default_index=0,
         styles={
         "container": {"background-color": "#262730"},
-        "icon": {"color": "#5936d0", "font-size": "15px"}, 
+        "icon": {"color": "gold", "font-size": "15px"}, 
         "nav-link": {"font-size": "15px", "text-align": "left", "margin":"0px", "--hover-color": "#62657c"},
         "nav-link-selected": {"background-color": "#62657c"},
     }
