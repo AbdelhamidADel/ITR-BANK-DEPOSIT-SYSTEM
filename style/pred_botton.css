@@ -1,6 +1,6 @@
 /* Style the submit button with a specific background color etc */
 button[kind="formSubmit"]{
-    background-color: gold;
+    background-color: #ccab00;
     color: white;
     padding: 12px 20px;
     border: none;
@@ -9,5 +9,5 @@ button[kind="formSubmit"]{
   }
 
   button[kind="formSubmit"]:hover {
-    background-color: #ccab00;
+    background-color: gold;
   }
