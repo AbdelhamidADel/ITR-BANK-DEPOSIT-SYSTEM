@@ -38,7 +38,7 @@ def load_lottieurl(url: str):
     return r.json()
 
 lottie_message = load_lottieurl(
-    "https://assets5.lottiefiles.com/packages/lf20_gr9towjo.json"
+    "https://assets1.lottiefiles.com/packages/lf20_xb07cJixiZ.json"
 )
 with st.sidebar:
     st_lottie(lottie_message, height=140, width=None, key="message")
