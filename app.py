@@ -188,8 +188,7 @@ if selected =='Contact Us':
         <button type="submit">Send</button>
     </form>
     """
-    with st.form('Form3'):
-        st.markdown(contact_form, unsafe_allow_html=True)
+    st.markdown(contact_form, unsafe_allow_html=True)
 
     # Use Local CSS File
     def local_css(file_name):
