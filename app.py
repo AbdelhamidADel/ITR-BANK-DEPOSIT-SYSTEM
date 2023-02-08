@@ -22,14 +22,9 @@ def set_background(png_file):
     bin_str = get_base64(png_file)
     page_bg_img = '''
     <style>
-    img {
-    width: 100%;
-    height: auto;
-    }
-
     .stApp {
     background-image: url("data:image/png;base64,%s");
-    
+    background-size: cover;
     }
     </style>
     ''' % bin_str
