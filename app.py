@@ -73,6 +73,12 @@ footer_sidebar="""<div>
 st.sidebar.markdown(footer_sidebar,unsafe_allow_html=True)
 # ---------------------------Home Page-----------------------------
 if selected =='Home':
+    page="""<style>
+    body {color: #262730;
+    text-shadow: 2px 2px 8px black;
+    font-weight: bold;}
+    </style>"""
+    st.markdown(page,unsafe_allow_html=True)
     st.markdown("<h2 style='text-align: center; color: gold;'>W  e  l  c  o  m  e<br/>to<br/>ITR-BANK DEPOSIT SYSTEM</h2>", unsafe_allow_html=True)
     st.markdown("<h4 style='text-align: left; color: gold;'>What is ITR-Bank Deposit System ?</h4>", unsafe_allow_html=True)
     st.markdown("<p style='color: #262730;font-weight: bold;'>🟣 It is a system that was created to predict if a specific customer will deposit in the bank, by means of some data that is entered into a model that was developed using machine learning.</p>", unsafe_allow_html=True)
