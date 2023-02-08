@@ -175,6 +175,7 @@ if selected =='Prediction':
         st.error('Check From Your Inputs')
 # ---------------------------Contact Page-----------------------------
 if selected =='Contact Us':
+    
     st.markdown("<h2 style='text-align: center; color: gold;'>Contact Us</h2>", unsafe_allow_html=True)
     st.header(":mailbox: Get In Touch With Me!")
 
@@ -187,8 +188,8 @@ if selected =='Contact Us':
         <button type="submit">Send</button>
     </form>
     """
-
-    st.markdown(contact_form, unsafe_allow_html=True)
+    with st.form('Form3'):
+        st.markdown(contact_form, unsafe_allow_html=True)
 
     # Use Local CSS File
     def local_css(file_name):
