@@ -29,7 +29,7 @@ def set_background(png_file):
     </style>
     ''' % bin_str
     st.markdown(page_bg_img, unsafe_allow_html=True)
-set_background('cover4.jpg')
+set_background('cover1.jpg')
 #--------------------------SITE SIDBAR ICON--------------------------------- 
 def load_lottieurl(url: str):
     r = requests.get(url)
