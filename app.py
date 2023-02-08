@@ -177,7 +177,6 @@ if selected =='Prediction':
 if selected =='Contact Us':
     
     st.markdown("<h2 style='text-align: center; color: gold;'>Contact Us</h2>", unsafe_allow_html=True)
-    st.header(":mailbox: Get In Touch With Me!")
 
 
     contact_form = """
